@@ -8,7 +8,7 @@ body {
   background-image: linear-gradient(to top, #baf4ba 0%, #74d381 50%);
 }
 
-.element, .branding_ideas, #citations, .assemble-brand-components {
+.element, .branding_ideas, #citations, .assemble-brand-components, .company_contact {
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
