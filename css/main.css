@@ -5,7 +5,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   padding: 2rem;
-  background-image: linear-gradient(to top, #baf4ba 0%, #74d381 50%);
+  background-image: linear-gradient(to top, #baf4ba 0%, #ffffff 50%);
 }
 
 .element, .branding_ideas, #citations, .assemble-brand-components, .company_contact {
@@ -184,6 +184,47 @@ label {
 
 .payment_form label{
   padding-top: 2rem;
+}
+
+/*
+COLOR PALETTE
+*/
+
+#green {
+  background-color: #74D381;
+  padding: 1rem;
+  width: 50%;
+}
+
+#blue {
+  background-color: #77F3FC;
+  padding: 1rem;
+  width: 50%;
+}
+
+#yellow {
+  background-color: #DED710;
+  padding: 1rem;
+  width: 50%;
+}
+
+#grey {
+  background-color: #E0E0E0;
+  padding: 1rem;
+  width: 50%;
+}
+
+#white {
+  background-color: #ffffff;
+  padding: 1rem;
+  width: 50%;
+}
+
+#black {
+  background-color: #000;
+  color:white;
+  padding: 1rem;
+  width: 50%;
 }
 
 
