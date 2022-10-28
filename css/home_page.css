@@ -1,0 +1,103 @@
+/*
+Home Page Styling
+*/
+
+/*Navigation Bar*/
+.navbar {
+    background: white;
+    border-bottom: #E0E0E0 0.1rem;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    position: sticky;
+  }
+  
+  .navbar img {
+    margin-left: 0.5rem;
+    vertical-align: bottom;
+  }
+  
+  /*
+  Hide hamburguer in standard view
+  */
+  
+  .navbar label, #hamburger {
+    display: none;
+  }
+  
+  .navitems {
+    display: flex;
+    float: right;
+  }
+
+.button-nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    padding: 1.5rem;
+    color: #000;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+  }
+  
+  .button-nav:hover, .button-nav:focus {
+    text-decoration: none;
+    color: #74D381;
+  }
+  
+  .button-nav span {
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .button-nav span:after {
+    content: '\00bb';
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .button-nav:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  /*Images*/
+  a>.img-overlay:hover, a>.img-overlay:active, a>img-overlay:focus {
+    opacity: 0.5;
+    transition: 0.5s ease;
+  }
+
+  /*HAMBURGER MENU FOR MOBILE SIZE SCREEN*/
+  @media screen and (max-width: 50rem) {
+    /*
+    Navbar hamburger icon on mobile view
+    */
+    .navbar label {
+      display: inline-block;
+      color: white;
+      background: #74D381;
+      font-style: normal;
+      padding: 1.25rem;
+    }
+    .navitems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-top: 0.1rem solid #74D381;
+    }
+    /*
+    Toggles the hamburger icon in mobile view
+    */
+    .navitems {
+      display: none;
+      float: none;
+    }
+    .navbar input:checked~.navitems {
+      display: block;
+      float: none;
+    }
+  
+
