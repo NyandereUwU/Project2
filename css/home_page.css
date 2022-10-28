@@ -1,6 +1,10 @@
 /*
 Home Page Styling
 */
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem;
+}
 
 /*Navigation Bar*/
 .navbar {
