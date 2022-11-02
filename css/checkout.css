@@ -67,15 +67,6 @@ nav a:focus {
   background-color: black;
 }
 
-a:hover img {
-  box-shadow: 0rem 0rem 2rem grey;
-  border-radius: 1.5rem;
-  transition-delay: 0.25s;
-}
-
-a:focus img {
-  border: 1rem solid black;
-}
 
 img {
   width: 100%;
