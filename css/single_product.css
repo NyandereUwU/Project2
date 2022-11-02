@@ -111,6 +111,10 @@ img {
   margin: 0.25rem 0;
 }
 
+.small_pics:hover{
+  cursor:pointer;
+}
+
 .size {
   display: inline-block;
   gap: 1rem;
