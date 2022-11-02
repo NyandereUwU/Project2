@@ -3,9 +3,14 @@ Home Page Styling
 */
 body {
   font-family: 'Poppins', sans-serif;
-  padding: 2rem;
+  margin:0;
+  border:solid black 1px;
+  /* padding: 2rem; */
 }
-
+*{
+  box-sizing: border-box;
+  /* border:1px solid red; */
+}
 /*Navigation Bar*/
 .navbar {
     background: white;
@@ -17,10 +22,20 @@ body {
   }
   
   .navbar img {
-    margin-left: 0.5rem;
+    /* margin-left: 0.5rem; */
     vertical-align: bottom;
   }
   
+.home_wallpaper {
+  margin:0;
+  padding:0;
+  /* border:solid black 1px; */
+}
+  
+  .home_wallpaper img{
+    width:100vw;
+  }
+
   /*
   Hide hamburguer in standard view
   */
