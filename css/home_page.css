@@ -27,6 +27,8 @@ body {
 
 .home_wallpaper {
   background-image:url(../images/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
   position: relative;
@@ -35,10 +37,6 @@ body {
   /* border:solid black 2px; */
 }
 
-.home_wallpaper img {
-  /* width: 100%; */
-  /* height:auto; */
-}
 
 .wallpaper_text {
   position:absolute;
